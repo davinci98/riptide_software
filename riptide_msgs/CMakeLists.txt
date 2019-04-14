@@ -18,7 +18,6 @@ add_message_files(
     Pwm.msg
     PwmStamped.msg
     Imu.msg
-    ImuVerbose.msg
     SwitchState.msg
     TaskAlignment.msg
     GateData.msg
@@ -35,12 +34,12 @@ add_message_files(
     AcousticsCommand.msg
     Pneumatics.msg
     Constants.msg
-    ThrusterResiduals.msg
     TaskInfo.msg
     Object.msg
     MissionState.msg
     StatusLight.msg
     CalibrateAlignment.msg
+    NetLoad.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs darknet_ros_msgs)
